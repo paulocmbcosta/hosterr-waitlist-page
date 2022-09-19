@@ -1,0 +1,23 @@
+.main-button {
+    background-color: #4977ea;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 18px; 
+    cursor: pointer;   
+}
+
+.main-button:hover {
+    background-color: #ea5374;
+}
+
+.main-button.-hiring {
+    font-size: 12px;
+    background: linear-gradient(to right, #eab251, #ea5374);
+    margin-left: 15px;
+    border-radius: 50px;
+    padding: 7px 14px;   
+}

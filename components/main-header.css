@@ -1,0 +1,15 @@
+.main-header {
+    max-width: 2280px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #f9f4e8;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;   
+}
