@@ -1,10 +1,7 @@
 .main-section {
+    max-width: 1250px;
+    width: 90%;
     display: flex;
-    justify-content: center;
-    background-color: #f9f4e8;
-    max-width: 100%;
-    padding-top: 100px;
-    padding-bottom: 50px;
-
-    
+    justify-content: space-between;
+    background-color: #f9f4e8;   
 }
