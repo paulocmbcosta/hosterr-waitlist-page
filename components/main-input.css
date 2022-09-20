@@ -16,3 +16,16 @@
     margin-right: 10px;
     padding-left: 15px;
 }
+
+@media (max-width:640px){
+    .main-input {
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+    .e-mail {
+        width: 95%;
+        margin: 0;
+    }
+}

@@ -1,5 +1,5 @@
 .main-footer {
-    width: 1250px;
+    width: 100%;
     margin: auto;
     
     background-color: #f9f4e8;
@@ -14,4 +14,11 @@
     align-items: center;
     justify-content: space-around;
     width: 220px;
+}
+
+@media (max-width: 640px) {
+    .main-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
