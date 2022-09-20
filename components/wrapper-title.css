@@ -2,3 +2,13 @@
     
     width: 600px;
 }
+
+.nospam {
+    display: flex;
+    align-items: center;
+    
+}
+
+.check {
+    margin-right: 20px;
+}

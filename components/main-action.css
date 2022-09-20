@@ -4,4 +4,9 @@
     padding-left: 12px;
     padding-right: 12px;
     font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-action:hover {
+    color: #4977ea;
 }

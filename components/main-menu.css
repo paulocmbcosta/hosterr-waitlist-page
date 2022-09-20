@@ -4,3 +4,8 @@
     align-items: center;
     width: 1250px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;   
+}

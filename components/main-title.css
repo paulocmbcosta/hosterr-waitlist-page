@@ -3,4 +3,11 @@
     font-size: 65px;
 
     margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-title.-phave {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
