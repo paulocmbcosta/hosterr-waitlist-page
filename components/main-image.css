@@ -1,3 +1,18 @@
 .main-image {
-    height: 500px;
+    position: absolute;
+    height: 450px;
+    left: 110px;
 }
+
+.main-image.-purple {
+    rotate: -15deg;
+}
+
+.main-image.-pink {
+    rotate: -30deg;
+}
+
+.main-image.-blue {
+    rotate: -45deg;
+}
+

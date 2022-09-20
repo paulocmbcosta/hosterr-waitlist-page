@@ -1,4 +1,4 @@
-body, header, a, nav, p, h1 {
+body, header, a, nav, p, h1, input {
     margin: 0;
     padding: 0;
 }
