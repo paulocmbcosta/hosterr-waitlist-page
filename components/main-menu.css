@@ -12,13 +12,84 @@
     align-items: center;   
 }
 
-@media (max-width: 890px) {
-    .main-menu > nav {
+.hidden {
+    display: flex;
+}
+
+@media (max-width: 930px) {
+    .hidden, .singin  {
         display: none;
     }
 
-    .singin {
-        display: none;
+    .one, .two, .three {
+        background-color: black;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
     }
 
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        
+    }
+
+
+    .main-menu.-on {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #f9f4e8;
+
+        z-index: 10;    
+    }
+
+    .main-menu.-on nav {
+        display: block;
+        
+    }
+    
+    .main-menu.-on ul {
+        display: block;   
+    }
+
+    .main-menu.-on .menu-toggle {
+        position: absolute;
+        right: 30px;
+        top: 50px;   
+    }
+
+    .main-menu.-on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .main-menu.-on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .main-menu.-on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .main-menu {
+        text-align: center;
+               
+        transition-duration: 0.5s;
+        font-size: 80px;
+    }
+
+    .main-menu.-on {
+        display: block;
+    }
+
+    .main-menu .main-action {
+        font-size: 30px;   
+    }   
 }
